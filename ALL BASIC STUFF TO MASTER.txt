@@ -1,0 +1,52 @@
+Here are the direct links to each class in the Roblox documentation:
+
+
+Instances & Hierarchy:
+
+Instance - https:/create.roblox.com/docs/reference/engine/classes/Instance
+DataModel - https:/create.roblox.com/docs/reference/engine/classes/DataModel
+Workspace - https:/create.roblox.com/docs/reference/engine/classes/Workspace
+Players - https:/create.roblox.com/docs/reference/engine/classes/Players
+Player - https:/create.roblox.com/docs/reference/engine/classes/Player
+
+Parts & Physics:
+
+BasePart - https:/create.roblox.com/docs/reference/engine/classes/BasePart
+Part - https:/create.roblox.com/docs/reference/engine/classes/Part
+Model - https:/create.roblox.com/docs/reference/engine/classes/Model
+CFrame - https:/create.roblox.com/docs/reference/engine/datatypes/CFrame
+Vector3 - https:/create.roblox.com/docs/reference/engine/datatypes/Vector3
+
+Scripting Core:
+
+Script - https:/create.roblox.com/docs/reference/engine/classes/Script
+LocalScript - https:/create.roblox.com/docs/reference/engine/classes/LocalScript
+ModuleScript - https:/create.roblox.com/docs/reference/engine/classes/ModuleScript
+task library - https:/create.roblox.com/docs/reference/engine/libraries/task
+
+Character & Movement:
+
+Humanoid - https:/create.roblox.com/docs/reference/engine/classes/Humanoid
+HumanoidRootPart - https:/create.roblox.com/docs/reference/engine/classes/Part (it's a Part)
+
+Events & Communication:
+
+RemoteEvent - https:/create.roblox.com/docs/reference/engine/classes/RemoteEvent
+RemoteFunction - https:/create.roblox.com/docs/reference/engine/classes/RemoteFunction
+BindableEvent - https:/create.roblox.com/docs/reference/engine/classes/BindableEvent
+
+UI Basics:
+
+ScreenGui - https:/create.roblox.com/docs/reference/engine/classes/ScreenGui
+Frame - https:/create.roblox.com/docs/reference/engine/classes/Frame
+TextLabel - https:/create.roblox.com/docs/reference/engine/classes/TextLabel
+TextButton - https:/create.roblox.com/docs/reference/engine/classes/TextButton
+UDim2 - https:/create.roblox.com/docs/reference/engine/datatypes/UDim2
+
+Services:
+
+ReplicatedStorage - https:/create.roblox.com/docs/reference/engine/classes/ReplicatedStorage
+ServerScriptService - https:/create.roblox.com/docs/reference/engine/classes/ServerScriptService
+StarterPlayer - https:/create.roblox.com/docs/reference/engine/classes/StarterPlayer
+
+All set! 🚀
