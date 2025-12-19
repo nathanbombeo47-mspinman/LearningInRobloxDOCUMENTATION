@@ -1,6 +1,6 @@
 Here are the direct links to each class in the Roblox documentation:
 
-
+🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒🔒
 🛠️ The "Building Blocks" (Physical)
 These are the things you can see, move, and touch.
 
@@ -36,11 +36,14 @@ UDim2 – The "Vector3" of UI. It’s how you set size and position for buttons 
 📡 The "Radio" (Communication)
 RemoteEvent – The bridge. How a LocalScript tells a Script to do something (like "I clicked the buy button").
 
+❌❌
 Why did I erase the others?
 
+❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
 Instance / BasePart / DataModel: These are "Parents." You use their features automatically when you use a Part. You don't need to study the "blueprint" if you're already building with the "bricks."
 
 RemoteFunction / BindableEvent: These are more specific versions of RemoteEvents. You don't need them yet.
 
 
 All set! 🚀
+
