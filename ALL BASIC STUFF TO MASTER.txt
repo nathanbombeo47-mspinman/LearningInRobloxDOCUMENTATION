@@ -1,52 +1,46 @@
 Here are the direct links to each class in the Roblox documentation:
 
 
-Instances & Hierarchy:
+🛠️ The "Building Blocks" (Physical)
+These are the things you can see, move, and touch.
 
-Instance - https:/create.roblox.com/docs/reference/engine/classes/Instance
-DataModel - https:/create.roblox.com/docs/reference/engine/classes/DataModel
-Workspace - https:/create.roblox.com/docs/reference/engine/classes/Workspace
-Players - https:/create.roblox.com/docs/reference/engine/classes/Players
-Player - https:/create.roblox.com/docs/reference/engine/classes/Player
+Part – The most basic physical object.
 
-Parts & Physics:
+Model – A folder for parts that has a "center" (PrimaryPart). Essential for characters and cars.
 
-BasePart - https:/create.roblox.com/docs/reference/engine/classes/BasePart
-Part - https:/create.roblox.com/docs/reference/engine/classes/Part
-Model - https:/create.roblox.com/docs/reference/engine/classes/Model
-CFrame - https:/create.roblox.com/docs/reference/engine/datatypes/CFrame
-Vector3 - https:/create.roblox.com/docs/reference/engine/datatypes/Vector3
+Vector3 – How you describe Position and Size (X, Y, Z).
 
-Scripting Core:
+CFrame – How you describe Position + Rotation. (Think of it as Vector3 with a "look direction").
 
-Script - https:/create.roblox.com/docs/reference/engine/classes/Script
-LocalScript - https:/create.roblox.com/docs/reference/engine/classes/LocalScript
-ModuleScript - https:/create.roblox.com/docs/reference/engine/classes/ModuleScript
-task library - https:/create.roblox.com/docs/reference/engine/libraries/task
+📜 The "Brains" (Scripting)
+The only three places your code actually lives.
 
-Character & Movement:
+Script – Runs on the Server (handles things everyone sees, like scores or the map).
 
-Humanoid - https:/create.roblox.com/docs/reference/engine/classes/Humanoid
-HumanoidRootPart - https:/create.roblox.com/docs/reference/engine/classes/Part (it's a Part)
+LocalScript – Runs on the Player's Computer (handles things only they see, like their UI or their own camera).
 
-Events & Communication:
+ModuleScript – A "Book of Functions" that other scripts can read from.
 
-RemoteEvent - https:/create.roblox.com/docs/reference/engine/classes/RemoteEvent
-RemoteFunction - https:/create.roblox.com/docs/reference/engine/classes/RemoteFunction
-BindableEvent - https:/create.roblox.com/docs/reference/engine/classes/BindableEvent
+👥 The "Human" Side (Characters)
+Player – The person behind the screen (lives in game.Players).
 
-UI Basics:
+Humanoid – The "engine" inside a character that makes them walk, jump, and have health.
 
-ScreenGui - https:/create.roblox.com/docs/reference/engine/classes/ScreenGui
-Frame - https:/create.roblox.com/docs/reference/engine/classes/Frame
-TextLabel - https:/create.roblox.com/docs/reference/engine/classes/TextLabel
-TextButton - https:/create.roblox.com/docs/reference/engine/classes/TextButton
-UDim2 - https:/create.roblox.com/docs/reference/engine/datatypes/UDim2
+🖼️ The "Interface" (UI)
+ScreenGui – The invisible container on your screen.
 
-Services:
+TextButton – A button the player clicks.
 
-ReplicatedStorage - https:/create.roblox.com/docs/reference/engine/classes/ReplicatedStorage
-ServerScriptService - https:/create.roblox.com/docs/reference/engine/classes/ServerScriptService
-StarterPlayer - https:/create.roblox.com/docs/reference/engine/classes/StarterPlayer
+UDim2 – The "Vector3" of UI. It’s how you set size and position for buttons (Scale and Offset).
+
+📡 The "Radio" (Communication)
+RemoteEvent – The bridge. How a LocalScript tells a Script to do something (like "I clicked the buy button").
+
+Why did I erase the others?
+
+Instance / BasePart / DataModel: These are "Parents." You use their features automatically when you use a Part. You don't need to study the "blueprint" if you're already building with the "bricks."
+
+RemoteFunction / BindableEvent: These are more specific versions of RemoteEvents. You don't need them yet.
+
 
 All set! 🚀
