@@ -1,1 +1,76 @@
 https://create.roblox.com/docs/reference/engine/classes/Instance
+
+Summary
+Properties
+Archivable:boolean
+archivable:boolean
+Deprecated
+Capabilities:SecurityCapabilities
+Name:string
+Parent:Instance
+PredictionMode:Enum.PredictionMode
+RobloxLocked:boolean
+Deprecated
+Sandboxed:boolean
+UniqueId:UniqueId
+Methods
+AddTag(tag: string):()
+children():Instances
+Deprecated
+ClearAllChildren():()
+Clone():Instance
+clone():Instance
+Deprecated
+Destroy():()
+destroy():()
+Deprecated
+FindFirstAncestor(name: string):Instance
+FindFirstAncestorOfClass(className: string):Instance
+FindFirstAncestorWhichIsA(className: string):Instance
+FindFirstChild(name: string,recursive: boolean):Instance
+findFirstChild(name: string,recursive: boolean):Instance
+Deprecated
+FindFirstChildOfClass(className: string):Instance
+FindFirstChildWhichIsA(className: string,recursive: boolean):Instance
+FindFirstDescendant(name: string):Instance
+GetActor():Actor?
+GetAttribute(attribute: string):Variant
+GetAttributeChangedSignal(attribute: string):RBXScriptSignal
+GetAttributes():Dictionary
+GetChildren():Instances
+getChildren():Instances
+Deprecated
+GetDebugId(scopeLength: number):string
+GetDescendants():Array
+GetFullName():string
+GetStyled(name: string):Variant
+GetStyledPropertyChangedSignal(property: string):RBXScriptSignal
+GetTags():Array
+HasTag(tag: string):boolean
+IsAncestorOf(descendant: Instance):boolean
+IsDescendantOf(ancestor: Instance):boolean
+isDescendantOf(ancestor: Instance):boolean
+Deprecated
+IsPropertyModified(property: string):boolean
+QueryDescendants(selector: string):Instances
+Remove():()
+Deprecated
+remove():()
+Deprecated
+RemoveTag(tag: string):()
+ResetPropertyToDefault(property: string):()
+SetAttribute(attribute: string,value: Variant):()
+WaitForChild(childName: string,timeOut: number):Instance
+Events
+AncestryChanged(child: Instance,parent: Instance):RBXScriptSignal
+AttributeChanged(attribute: string):RBXScriptSignal
+ChildAdded(child: Instance):RBXScriptSignal
+childAdded(child: Instance):RBXScriptSignal
+Deprecated
+ChildRemoved(child: Instance):RBXScriptSignal
+DescendantAdded(descendant: Instance):RBXScriptSignal
+DescendantRemoving(descendant: Instance):RBXScriptSignal
+Destroying():RBXScriptSignal
+StyledPropertiesChanged():RBXScriptSignal
+
+Instance is the base class for all classes in the Roblox class hierarchy which can be part of the DataModel tree.
