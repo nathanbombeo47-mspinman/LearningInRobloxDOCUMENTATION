@@ -1,1 +1,4 @@
 https://create.roblox.com/docs/reference/engine/classes/Model#summary
+
+Models are container objects, meaning they group objects together.
+They are best used to hold collections of BaseParts and have a number of functions that extend their functionality.
