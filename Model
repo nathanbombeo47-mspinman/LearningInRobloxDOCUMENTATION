@@ -6,4 +6,4 @@ They are best used to hold collections of BaseParts and have a number of functio
 Note that Models do not have PrimaryPart set by default. If you are creating a model that needs to be acted upon by physics, you should manually set this property in Studio or within a script.
 If the primary part is not set, the pivot will remain at the same location in world space, even if parts within the model are moved.
 
-Finished Halfway only since all of the rest of the things are complex not basic.
+Not Finished
